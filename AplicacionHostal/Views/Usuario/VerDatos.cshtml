@@ -1,0 +1,90 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @using Dominio
+    @model Usuario
+
+    <h1 class="text-center mt-5 me-3">Mis datos personales</h1>
+
+    if (Context.Session.GetString("UsuarioRol") == "OPERADOR")
+    {
+        Operador o = (Operador)Model;
+
+        <div class="datosUsuarioContainer datosUsuario container-fluid mt-4">
+            <div class="row justify-content-center">
+                <div class="datosUsuario row col-10 col-sm-5 col-lg-4">
+                    <div class="form-outline mb-3 col-12">
+                        <label class="form-label d-block" for="Nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="Nombre" value="@o.Nombre" disabled>
+                    </div>
+
+                    <div class="form-outline mb-3 col-12">
+                        <label class="form-label d-block" for="Apellido">Apellido:</label>
+                        <input type="text" class="form-control" id="Apellido" value="@o.Apellido" disabled>
+                    </div>
+
+                    <div class="form-outline mb-3 col-12">
+                        <label class="form-label d-block" for="Correo">Correo:</label>
+                        <input type="text" class="form-control" id="Correo" value="@o.Correo" disabled>
+                    </div>
+
+                    <div class="form-outline mb-3 col-12">
+                        <label class="form-label d-block" for="FechaInicio">Fecha de ingreso:</label>
+                        <input type="text" class="form-control" id="FechaInicio" value="@o.FechaInicio.Date.ToShortDateString()" disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        Huesped h = (Huesped)Model;
+
+        <div class="datosUsuarioContainer container-fluid mt-4">
+            <div class="row justify-content-center">
+                <div class="datosUsuario row col-8">
+                    <div class="form-outline mb-3 col-12 col-md-6">
+                        <label class="form-label d-block" for="Nombre">Nombre:</label>
+                        <input type="text" class="form-control me-2" id="Nombre" value="@h.Nombre" disabled>
+                    </div>
+
+                    <div class="form-outline mb-3 col-12 col-md-6">
+                        <label class="form-label d-block" for="Apellido">Apellido:</label>
+                        <input type="text" class="form-control" id="Apellido" value="@h.Apellido" disabled>
+                    </div>
+
+                    <div class="form-outline mb-3 col-12 col-md-6">
+                        <label class="form-label d-block" for="Correo">Correo:</label>
+                        <input type="text" class="form-control me-2" id="Correo" value="@h.Correo" disabled>
+                    </div>
+
+                    <div class="form-outline mb-3 col-12 col-md-6">
+                        <label class="form-label d-block" for="FechaDeNacimiento">Fecha de nacimiento:</label>
+                        <input type="text" class="form-control" id="FechaDeNacimiento" value="@h.FechaNacimiento.Date.ToShortDateString()" disabled>
+                    </div>
+
+                    <div class="form-outline mb-3 col-12 col-md-6">
+                        <label class="form-label d-block" for="TipoDocumento">Tipo de documento:</label>
+                        <input type="text" class="form-control me-2" id="TipoDocumento" value="@h.TipoDocumento" disabled>
+                    </div>
+
+                    <div class="form-outline mb-3 col-12 col-md-6">
+                        <label class="form-label d-block" for="NumeroDeDocumento">Numero de documento:</label>
+                        <input type="text" class="form-control" id="NumeroDeDocumento" value="@h.NroDocumento" disabled>
+                    </div>
+
+                    <div class="form-outline mb-3 col-12 col-md-6">
+                        <label class="form-label d-block" for="Fidelizacion">Fidelizacion:</label>
+                        <input type="text" class="form-control me-2" id="Fidelizacion" value="@h.Fidelizacion" disabled>
+                    </div>
+
+                    <div class="form-outline mb-3 col-12 col-md-6">
+                        <label class="form-label d-block" for="NumeroDeHabitacion">Numero de habitacion:</label>
+                        <input type="text" class="form-control" id="NumeroDeHabitacion" value="@h.Habitacion" disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}

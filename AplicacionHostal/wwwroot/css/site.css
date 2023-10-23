@@ -1,0 +1,297 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0 white, 0 0 0 0 #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: rgb(220, 224, 221);
+}
+
+/*====================Menú login====================*/
+@media (min-width: 576px) {
+    .dropdown-menu {
+        left: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .dropdown-menu {
+        right: 0;
+        left: auto;
+    }
+}
+
+
+/*====================BTN-A====================*/
+td a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(79, 114, 81);
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 1s;
+    letter-spacing: 1px;
+    display: block;
+    margin: auto 0;
+    text-align: center;
+}
+
+td a:hover {
+    color: white;
+    background-color: rgb(49, 84, 51);
+}
+
+/*====================TABLAS====================*/
+thead {
+    background-color: rgb(59, 94, 61);
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-color: rgb(173, 173, 173);
+}
+
+th:first-child{
+    border-radius: 10px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+/*====================INPUT-EstablecerPromocionProveedor====================*/
+#inputDisabled{
+    font-weight: bold;
+    border: none;
+    width: 50px;     
+}
+
+#inputDisabled:focus{
+    outline: none;
+}
+
+#inputDisabled2 {
+    width: 50px;
+}
+
+/*====================HEADER====================*/
+#navbarDarkDropdownMenuLink {
+    color: white;
+}
+
+header {
+    background-color: rgba(0,0,0, 0.5);
+}
+
+/*====================LOGO====================*/
+#imagenPacificBreeze{
+    height: 90px; 
+}
+
+/*====================BOTON-ACCESO====================*/
+#imagenPacificUsuario{
+    height: 25px;    
+}
+
+#fondoUsuarioBreeze {
+    border-radius: 5px;
+    background-color: rgb(79, 114, 81);
+    border: none;
+    transition: all 0.3s;
+}
+
+#fondoUsuarioBreeze:hover {
+    background-color: rgb(59, 94, 61);
+}
+
+/*====================FOOTER====================*/
+footer{
+    background-color: rgba(0,0,0, 0.7);
+    border: 0; 
+}
+
+footer div img{
+    height: 25px;    
+}
+/*====================LOGIN====================*/
+#formLoginGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    grid-gap: 5px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 24px 1px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 0px 0px 24px 1px rgba(0,0,0,0.52);
+    border-radius: 10px;
+    box-shadow: 0px 0px 24px 1px rgba(0,0,0,0.52);
+    color: white;
+}
+
+#divFormLogin {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputForm {
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.inputForm:focus {
+    outline: none;
+    box-shadow: none;
+    color: white;
+    background-color: transparent;
+}
+
+.labelForm {
+    color: aliceblue;
+    margin-right: 160px;
+}
+
+.nuevoEnPacific{
+    color: grey;
+}
+
+/*====================BOTON-INICIAR_SESION====================*/
+#btnLogin {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-hover {
+    width: 190px;
+    height: 40px;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+/*====================REGISTRO====================*/
+#formRegistroGrid {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 24px 1px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 0px 0px 24px 1px rgba(0,0,0,0.52);
+    border-radius: 10px;
+    box-shadow: 0px 0px 24px 1px rgba(0,0,0,0.52);
+    color: white;
+    margin-top: 40px;
+}
+
+#divFormRegistro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputRegistro{
+    color: white;
+    background-color: transparent;
+}
+
+.inputRegistro:focus {
+    outline: none;
+    box-shadow: none;
+    color: white;
+    background-color: transparent;
+}
+
+select option{
+    color: black;
+}
+
+#btnRegistrarse {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*====================FUNCIONALIDAD-VisualizarActividades====================*/
+#fechaActividad{
+    width: 150px;
+    display: inline-block;
+    background-color: rgba(255,255,255, 0.5);    
+}
+
+/*====================FUNCIONALIDAD-VerDatosUsuario====================*/
+
+
+/*====================FUNCIONALIDAD-AgendasSegunDocumento====================*/
+.inputAgendasDocumento {
+    width: 175px;
+}
+
+/*====================ALERTAS====================*/
+.alertaError {
+    background-color: rgba(224, 96, 96, 0.1);
+    border: 1px solid red;
+    text-align: center;
+}
+
+.alertaExito {
+    background-color: rgba(96, 224, 122, 0.1);
+    border: 1px solid green;
+    text-align: center;
+}
+
+.errorUsuario {
+    color: white;
+    width: 475px;
+    margin: 0 auto;
+}
+
+/*====================FUNCIONALIDAD-EstablecerPromocionProv====================*/
+.establecerPromocionProv {
+    width: 200px;
+}
+
+.btnEstablecerPromocionProv{
+    width: 120px;
+}
+
+/*====================FUNCIONALIDAD-VerDatosAgenda====================*/
+
+
+#divDatosAgendaAgenda{
+    display: flex;
+
+    height: 40vh;
+
+    align-items: center;
+    justify-content: center;
+}

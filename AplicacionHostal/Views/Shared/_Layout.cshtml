@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Pacific Breeze Hostel</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AplicacionHostal.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-sm navbar-toggleable-sm navbar-light bg-black border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img id="imagenPacificBreeze" src="https://i.ibb.co/rGGhhRj/Logo3-1.png" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">                                                
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Actividad" asp-action="Listar">Actividades</a>
+                        </li>   
+                        
+                        @if (Context.Session.GetString("UsuarioRol") == "HUESPED")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Agenda" asp-action="MostrarAgenda">Agendas</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Usuario" asp-action="VerDatos">Mis datos</a>
+                            </li>
+                        }
+                        else if (Context.Session.GetString("UsuarioRol") == "OPERADOR")
+                        {
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Agendas
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Agenda" asp-action="MostrarAgendaSegunDocumento">Filtrar por documento</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Agenda" asp-action="MostrarAgendaSegunFecha">Filtrar por fecha</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Agenda" asp-action="MostrarAgendasPendientes">Confirmar</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Proveedor" asp-action="Listar">Proveedores</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Usuario" asp-action="VerDatos">Mis datos</a>
+                            </li>
+                        }
+                    </ul> 
+                    
+                    @if (Context.Session.GetString("UsuarioLogueado") != null)
+                    {
+                        <div class="btn-group dropdown">
+                            <button type="button" class="btn btn-secondary dropdown-toggle me-4" data-bs-toggle="dropdown" aria-expanded="false">
+                                @Context.Session.GetString("UsuarioLogueado")
+                            </button>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" asp-area="" asp-controller="Login" asp-action="Desloguear">Cerrar Sesion</a>
+                            </ul>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="btn-group dropdown">
+                            <button type="button" class="btn btn-primary dropdown-toggle me-4" id="fondoUsuarioBreeze" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img id="imagenPacificUsuario" src="https://i.ibb.co/fD6tf0R/001-user.png" />
+                                Acceder
+                            </button>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" asp-area="" asp-controller="Login" asp-action="Index">Iniciar Sesion</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="Registro" asp-action="Index">Registrarse</a>
+                            </ul>
+                        </div>
+                    }
+
+                </div>
+
+                
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container text-center">
+            <img src="https://i.ibb.co/ZmDnFG3/Logo-Footer2.png" />
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

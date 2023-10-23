@@ -1,0 +1,92 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @using Dominio
+    @model List<Agenda>
+
+    <h1 class="mt-4 mb-3">Actividades agendadas</h1>
+
+    if (ViewBag.MensajeError == null)
+    {
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Huesped</th>                    
+                        <th scope="col">Actividad</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Lugar</th>
+                        <th scope="col">Costo</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Proveedor</th>
+                        @if((bool)TempData["MostrarBotonConfirmar"]! == true)
+                        {
+                            <th scope="col">Confirmar</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                                    
+                    @foreach(Agenda a in Model)
+                    {
+                        <tr>
+                            <td>@a.Huesped.Nombre @a.Huesped.Apellido</td>                        
+                            <td>@a.Actividad.Nombre</td>
+                            <td>@a.Actividad.Fecha</td>
+
+                            @if(a.Actividad.ObtenerTipo() == "HOSTAL"){
+                                <td>@a.Actividad.ToString()</td>                            
+                            }else{
+                                <td>No aplica</td>
+                            }
+
+                            @if(a.CostoFinal > 0)
+                            {
+                                <td>@a.CostoFinal USD</td>                            
+                            }else{
+                                <td>Actividad gratuita</td>
+                            }
+                            <td>@a.Estado</td>
+
+                            @if (a.Actividad.ObtenerTipo() == "TERCIARIZADA")
+                            {
+                                <td>@a.Actividad.ToString()</td>
+                            }
+                            else
+                            {
+                                <td>No aplica</td>
+                            }
+                        
+                            @if((bool)TempData["MostrarBotonConfirmar"]! == true)
+                            {
+                                if (a.Actividad.CantDisponible > 0)
+                                {
+                                    <td>@Html.ActionLink("Confirmar", "ConfirmarAgenda", "Agenda", new {elID = a.Id})</td>                                
+                                }
+                                else
+                                {
+                                    <td>Sin disponibilidad</td>
+                                }
+                            }
+
+                        </tr>
+                    }                
+                </tbody>
+            </table>
+        </div>
+
+        if (TempData["MensajeExito"] != null)
+        {
+            <div class="alert alert-success alertaExito" role="alert">
+                <span>✔️ </span> @TempData["MensajeExito"]
+            </div>
+        }
+    }
+    else
+    {
+        <div class="alert alert-danger alertaError" role="alert">
+            <span>❌ </span> @ViewBag.MensajeError
+        </div>
+    }
+}

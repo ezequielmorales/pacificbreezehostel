@@ -1,0 +1,115 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @using Dominio
+    @model List<Actividad>
+
+    <h1 class="mt-4 mb-3">Actividades</h1>
+
+    <form action="/Actividad/Listar" method="get">
+        <div class="mb-3">
+            <label class="form-label d-block" for="fechaActividad">Fecha:</label>
+            <input type="date" class="form-control mb-2" id="fechaActividad" name="Fecha">
+            <input type="submit" class="btn btn-primary mb-1" value="Buscar">
+        </div>
+    </form>
+
+    @if (ViewBag.MensajeError == null)
+    {
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Descripcion</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Maximo de personas</th>
+                        <th scope="col">Lugares disponibles</th>
+                        <th scope="col">Edad minima</th>
+                        <th scope="col">Costo</th>
+                        @if (Context.Session.GetString("UsuarioRol") == "HUESPED" || Context.Session.GetString("UsuarioRol") == null)
+                        {
+                            <th scope="col">Agendar</th>                        
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Actividad a in Model)
+                        {
+                            <tr>
+                                <th>@a.Id</th>
+                                <td>@a.Nombre</td>
+                                <td>@a.Descripcion</td>
+                                <td>@a.Fecha</td>
+                                <td>@a.CantMaxPersonas</td>
+                                <td>@a.CantDisponible</td>
+                                <td>@a.EdadMinima</td>
+                                @if(a.Costo > 0)
+                                {
+                                    <td>@a.Costo USD</td>                                
+                                }else{
+                                    <td>Actividad gratuita</td>
+                                }
+                                @if (Context.Session.GetString("UsuarioRol") == "HUESPED" || Context.Session.GetString("UsuarioRol") == null)
+                                {                                
+                                        @if(Context.Session.GetString("UsuarioLogueado") != null)
+                                        {
+                                            if(a.CantDisponible > 0)
+                                            {
+                                                <td>@Html.ActionLink("Agendarme", "Agendar", "Agenda", new {elID = a.Id})</td>
+                                            }else{
+                                                <td>Sin disponibilidad</td>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <td>@Html.ActionLink("Agendarme", "Index", "Login", new {elID = a.Id})</td>
+                                        }                                
+                                }
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger alertaError" role="alert">
+            <span>❌ </span> @ViewBag.MensajeError
+        </div>
+    }
+
+    @if (Model.Count == 0)
+    {
+        <!-- Modal Fecha -->
+        <div class="modal fade" id="modalFecha" tabindex="-1" aria-labelledby="modalFechaLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalFecha">Fecha</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Para testear la aplicación puedes usar la fecha: 15/07/2025</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener("load", function () {
+            setTimeout(function () {
+            new bootstrap.Modal(document.getElementById("modalFecha")).show();
+            }, 3000);
+            });
+        </script>
+    }
+
+}

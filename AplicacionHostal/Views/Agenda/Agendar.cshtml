@@ -1,0 +1,79 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @using Dominio
+    @model Agenda
+
+    <h1 class="mt-4 mb-3 text-center">DATOS DE LA AGENDA</h1>
+
+    if (ViewBag.MensajeError == null)
+    {
+        <div class="alert alert-success alertaExito" role="alert">
+            <span>✔️ </span> Agenda solicitada con exito!
+        </div>
+
+        <div id="divDatosAgenda" class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="row col 8"> 
+                    <div class="form-outline mb-3 col-12 col-md-6">
+                        <label class="form-label d-block" for="Nombre">Huesped:</label>
+                        <input type="text" class="form-control" id="Nombre" value="@Model.Huesped.Nombre @Model.Huesped.Apellido" disabled>
+                    </div>
+
+                    <div class="form-outline mb-3 col-12 col-md-6">
+                        <label class="form-label d-block" for="Actividad">Actividad:</label>
+                        <input type="text" class="form-control" id="Actividad" value="@Model.Actividad.Nombre" disabled>
+                    </div>
+
+                    <div class="form-outline mb-3 col-12 col-md-6">
+                        <label class="form-label d-block" for="FechaActividad">Fecha actividad:</label>
+                        <input type="text" class="form-control" id="FechaActividad" value="@Model.Actividad.Fecha" disabled>
+                    </div>
+
+                    @if(Model.Actividad.ObtenerTipo() == "HOSTAL")
+                    {
+                        <div class="form-outline mb-3 col-12 col-md-6">
+                            <label class="form-label d-block" for="Lugar">Lugar:</label>
+                            <input type="text" class="form-control" id="Lugar" value="@Model.Actividad.ToString()" disabled>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="form-outline mb-3 col-12 col-md-6">
+                            <label class="form-label d-block" for="Proveedor">Proveedor:</label>
+                            <input type="text" class="form-control" id="Proveedor" value="@Model.Actividad.ToString()" disabled>
+                        </div>
+                    }
+
+                    @if(Model.CostoFinal > 0)
+                    {
+                        <div class="form-outline mb-3 col-12 col-md-6">
+                            <label class="form-label d-block" for="CostoFinal">Costo final:</label>
+                            <input type="text" class="form-control" id="CostoFinal" value="@Model.CostoFinal USD" disabled>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="form-outline mb-3 col-12 col-md-6">
+                            <label class="form-label d-block" for="CostoFinal">Costo final:</label>
+                            <input type="text" class="form-control" id="CostoFinal" value="Actividad gratuita" disabled>
+                        </div>
+                    }
+
+                    <div class="form-outline mb-3 col-12 col-md-6">
+                        <label class="form-label d-block" for="Estado">Estado:</label>
+                        <input type="text" class="form-control" id="Estado" value="@Model.Estado" disabled>
+                    </div>              
+                </div>
+            </div>
+        </div>
+
+    }
+    else
+    {
+        <div class="alert alert-danger alertaError" role="alert">
+            <span>❌ </span> @ViewBag.MensajeError
+        </div>
+    }
+}

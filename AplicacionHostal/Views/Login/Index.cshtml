@@ -1,0 +1,70 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <style>
+        body {
+            background-image: url("https://i.ibb.co/DgL5CMd/fondo-Blur.png");
+            background-repeat: no-repeat;
+            background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+            background-position: center;
+        }
+    </style>
+
+    <div id="divFormLogin">
+        <form action="/Login/Loguear" method="post" id="formLoginGrid">
+        
+            <div class="form-outline mb-1 text-center">
+                <label class="form-label labelForm" for="correo">Correo:</label>
+                <input type="email" class="form-control inputForm" id="correo" name="correo" required>
+            </div>
+
+            <div class="form-outline mb-3 text-center">
+                <label class="form-label labelForm" for="contraseña">Contraseña:</label>
+                <input type="password" class="form-control inputForm" id="contraseña" name="contraseña" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-hover mb-3 mx-auto" id="btnLogin">Iniciar sesion</button>
+
+            <p class="text-center nuevoEnPacific">¿Nuevo en Pacific Breeze? @Html.ActionLink("Crear una cuenta", "Index", "Registro")</p>
+        </form>
+    </div>
+
+    if (TempData["LoginError"] != null)
+    {
+        <div class="alert alert-danger alertaError errorUsuario" role="alert">
+            <span>❌ </span> @TempData["LoginError"]
+        </div>
+    }
+
+
+    <!-- Modal Credenciales -->
+    <div class="modal fade" id="modalCredenciales" tabindex="-1" aria-labelledby="modalCredencialesLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalCredenciales">Credenciales de acceso</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Para testear la aplicación puedes usar las credenciales precargadas:</p>
+                    <p><strong>Operador:</strong><br>
+                    Usuario: operador@gmail.com <br /> Contraseña: 12345678</p>
+                    <p><strong>Huésped:</strong> <br>
+                    Usuario: huesped@gmail.com <br /> Contraseña: 12345678</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener("load", function () {
+            setTimeout(function () {
+                new bootstrap.Modal(document.getElementById("modalCredenciales")).show();
+            }, 3000);
+        });
+    </script>
+}

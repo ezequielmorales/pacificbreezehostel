@@ -1,0 +1,75 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <style>
+        body {
+            background-image: url("https://i.ibb.co/DgL5CMd/fondo-Blur.png");
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-position: center;
+        }
+    </style>
+
+
+    <div id="divFormRegistro" class="container-fluid">
+        <div class="row justify-content-center">
+            <form action="/Registro/Registrar" method="post" id="formRegistroGrid" class="row col-8">
+
+                <div class="form-outline mb-1 col-12 col-md-6">
+                    <label class="form-label d-block" for="Correo">Correo:</label>
+                    <input type="email" class="form-control inputRegistro" id="Correo" name="Correo" required>
+                </div>
+
+                <div class="form-outline mb-1 col-12 col-md-6">
+                    <label class="form-label d-block" for="Contraseña">Contraseña:</label>
+                    <input type="password" class="form-control inputRegistro" id="Contraseña" name="Contraseña" required>
+                </div>
+
+                <div class="form-outline mb-1 col-12 col-md-6">
+                    <label class="form-label d-block" for="TipoDocumento">Tipo de documento:</label>
+                    <select class="form-select d-block inputRegistro" id="TipoDocumento" name="TipoDocumento" required>
+                        <option disabled selected>Seleccione uno</option>
+                        <option>CI</option>
+                        <option>PASAPORTE</option>
+                        <option>OTRO</option>
+                    </select>
+                </div>
+
+                <div class="form-outline mb-1 col-12 col-md-6">
+                    <label class="form-label d-block" for="NroDocumento">Numero de documento:</label>
+                    <input type="text" class="form-control inputRegistro" id="NroDocumento" name="NroDocumento" required>
+                </div>
+
+                <div class="form-outline mb-1 col-12 col-md-6">
+                    <label class="form-label d-block" for="Nombre">Nombre:</label>
+                    <input type="text" class="form-control inputRegistro" id="Nombre" name="Nombre" required>
+                </div>
+
+                <div class="form-outline mb-1 col-12 col-md-6">
+                    <label class="form-label d-block" for="Apellido">Apellido:</label>
+                    <input type="text" class="form-control inputRegistro" id="Apellido" name="Apellido" required>
+                </div>
+
+                <div class="form-outline mb-1 col-12 col-md-6">
+                    <label class="form-label d-block" for="Habitacion">Numero de habitacion:</label>
+                    <input type="text" class="form-control inputRegistro" id="Habitacion" name="Habitacion" required>
+                </div>
+
+                <div class="form-outline mb-3 col-12 col-md-6">
+                    <label class="form-label d-block" for="FechaNacimiento">Fecha de nacimiento:</label>
+                    <input type="date" class="form-control inputRegistro" id="FechaNacimiento" name="FechaNacimiento" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-hover mx-auto mt-2" id="btnRegistrarse">Registrarse</button>
+            </form>
+        </div>
+    </div>
+    
+    if (TempData["RegistroError"] != null)
+    {
+        <div class="alert alert-danger alertaError errorUsuario" role="alert">
+            <span>❌ </span> @TempData["RegistroError"]
+        </div>
+    }
+}

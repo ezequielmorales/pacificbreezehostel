@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{    
+    @model int
+
+    <h1 class="mt-4 mb-3">Establecer promocion</h1>
+
+    <form action="/Proveedor/EstablecerPromocion" method="post" class="mb-4">
+
+        <div class="form-outline d-inline-block establecerPromocionProv me-2 mb-2">
+            <label class="form-label" for="NumeroProveedor">Numero de proveedor:</label>
+            <input type="number" class="form-control fondoInput" id="NumeroProveedor" value="@Model" name="NumeroProveedor" readonly>
+        </div>
+
+        <div class="form-outline d-inline-block establecerPromocionProv me-2 mb-2">
+            <label class="form-label" for="Descuento">Descuento:</label>
+            <input type="number" class="form-control fondoInput" id="Descuento" name="Descuento" required>
+        </div>
+
+        <div class="d-inline-block btnEstablecerPromocionProv">
+            <input type="submit" class="btn btn-primary mb-1" value="Establecer">
+        </div>        
+    </form>
+
+    if (TempData["MensajeError"] != null)
+    {
+        <div class="alert alert-danger alertaError" role="alert">
+            <span>❌ </span> @TempData["MensajeError"]
+        </div>
+    }
+}
