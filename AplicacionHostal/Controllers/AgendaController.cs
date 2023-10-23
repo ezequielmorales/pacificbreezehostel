@@ -1,4 +1,4 @@
-﻿using Dominio;
+using Dominio;
 using Microsoft.AspNetCore.Mvc;
 using System;
 
@@ -70,7 +70,7 @@ namespace AplicacionHostal.Controllers
                 {
                     ViewBag.MensajeError = ex.Message;
                 }
-                return View(listado);
+                return View("MostrarAgendaConFiltro", listado);
             }
             else
             {
@@ -97,7 +97,7 @@ namespace AplicacionHostal.Controllers
                 {
                     ViewBag.MensajeError = ex.Message;
                 }
-                return View("MostrarAgendaSegunDocumento", listado);
+                return View("MostrarAgendaConFiltro", listado);
             }
             else
             {
