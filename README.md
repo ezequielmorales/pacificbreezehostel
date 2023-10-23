@@ -7,15 +7,3 @@ La aplicación cuenta con tres tipos de usuarios, quienes tiene acceso a diferen
 - El <strong>usuario operador</strong> puede visualizar el listado de actividades, ver las agendas filtradas por huésped o por fecha, confirmar el pago de las reservas, consultar el listado de proveedores, establecer el valor de promoción de cada proveedor y ver sus datos personales. <br/> <br/>
 
 Las actividades pueden ser propias del hostal o tercerizadas. Según su tipo, almacenan datos diferentes y se comportan de forma distinta en la aplicación. <br/> <br/>
-
-<strong>Credenciales para testear la aplicación:</strong><br/>
-Operador:<br/>
-Usuario: operador@gmail.com<br/>
-Contraseña: 12345678<br/><br/>
-
-Huésped:<br/>
-Usuario: huesped@gmail.com<br/>
-Contraseña: 12345678<br/><br/>
-
-Fecha con actividades precargadas:<br/>
-15/07/2025<br/>
