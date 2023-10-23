@@ -1,6 +1,6 @@
 # pacificbreezehostel
 
-Pacific Breeze Hostel es una aplicación web desarrollada con ASP.NET que mejora la eficiencia en la agenda de actividades de los huéspedes de un hostal. <br/> <br/>
+Pacific Breeze Hostel es una aplicación web desarrollada con ASP.NET que mejora la eficiencia en el proceso de agenda de actividades de los huéspedes de un hostal. <br/> <br/>
 La aplicación cuenta con tres tipos de usuarios, quienes tiene acceso a diferentes funcionalidades según su rol.
 - El usuario sin identificar puede ver el listado de actividades disponibles y registrarse como huésped.
 - El usuario huésped puede reservar actividades, consultar sus agendas y ver sus datos personales.
