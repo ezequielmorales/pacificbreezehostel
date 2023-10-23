@@ -1,0 +1,102 @@
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\appsettings.Development.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\appsettings.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.staticwebassets.runtime.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.exe
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.deps.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.runtimeconfig.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.pdb
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\Dominio.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\Dominio.pdb
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.csproj.AssemblyReference.cache
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.AssemblyInfoInputs.cache
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.AssemblyInfo.cs
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.MvcApplicationPartsAssemblyInfo.cache
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.RazorAssemblyInfo.cache
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.RazorAssemblyInfo.cs
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets\msbuild.AplicacionHostal.Microsoft.AspNetCore.StaticWebAssets.props
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets\msbuild.build.AplicacionHostal.props
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AplicacionHostal.props
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AplicacionHostal.props
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets.pack.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets.build.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets.development.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\scopedcss\bundle\AplicacionHostal.styles.css
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\scopedcss\projectbundle\AplicacionHostal.bundle.scp.css
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.csproj.CopyComplete
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\refint\AplicacionHostal.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.pdb
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.genruntimeconfig.cache
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\ref\AplicacionHostal.dll
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\appsettings.json
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.staticwebassets.runtime.json
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.exe
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.deps.json
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.runtimeconfig.json
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.dll
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.pdb
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\Dominio.dll
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\Dominio.pdb
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.RazorAssemblyInfo.cache
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.RazorAssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets\msbuild.AplicacionHostal.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets\msbuild.build.AplicacionHostal.props
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AplicacionHostal.props
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AplicacionHostal.props
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\scopedcss\bundle\AplicacionHostal.styles.css
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\scopedcss\projectbundle\AplicacionHostal.bundle.scp.css
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.csproj.CopyComplete
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.dll
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\refint\AplicacionHostal.dll
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.pdb
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.genruntimeconfig.cache
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\ref\AplicacionHostal.dll
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\appsettings.json
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.staticwebassets.runtime.json
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.exe
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.deps.json
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.runtimeconfig.json
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.dll
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\AplicacionHostal.pdb
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\Dominio.dll
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\bin\Debug\net7.0\Dominio.pdb
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.RazorAssemblyInfo.cache
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.RazorAssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets\msbuild.AplicacionHostal.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets\msbuild.build.AplicacionHostal.props
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AplicacionHostal.props
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AplicacionHostal.props
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\scopedcss\bundle\AplicacionHostal.styles.css
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\scopedcss\projectbundle\AplicacionHostal.bundle.scp.css
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.csproj.CopyComplete
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.dll
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\refint\AplicacionHostal.dll
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.pdb
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\AplicacionHostal.genruntimeconfig.cache
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\AplicacionHostal\obj\Debug\net7.0\ref\AplicacionHostal.dll
