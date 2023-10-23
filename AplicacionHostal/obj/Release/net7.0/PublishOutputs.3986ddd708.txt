@@ -1,0 +1,9 @@
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Release\net7.0\PubTmp\Out\AplicacionHostal.exe
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Release\net7.0\PubTmp\Out\AplicacionHostal.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Release\net7.0\PubTmp\Out\AplicacionHostal.deps.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Release\net7.0\PubTmp\Out\AplicacionHostal.runtimeconfig.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Release\net7.0\PubTmp\Out\AplicacionHostal.pdb
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Release\net7.0\PubTmp\Out\Dominio.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\AplicacionHostal\obj\Release\net7.0\PubTmp\Out\Dominio.pdb
