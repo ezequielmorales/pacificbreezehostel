@@ -1,0 +1,84 @@
+C:\Users\matev\Desktop\ORT\Semestre 2\Programacion 2\Obligatorio\Codigo\Dominio\bin\Debug\net7.0\Dominio.deps.json
+C:\Users\matev\Desktop\ORT\Semestre 2\Programacion 2\Obligatorio\Codigo\Dominio\bin\Debug\net7.0\Dominio.dll
+C:\Users\matev\Desktop\ORT\Semestre 2\Programacion 2\Obligatorio\Codigo\Dominio\bin\Debug\net7.0\Dominio.pdb
+C:\Users\matev\Desktop\ORT\Semestre 2\Programacion 2\Obligatorio\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\matev\Desktop\ORT\Semestre 2\Programacion 2\Obligatorio\Codigo\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matev\Desktop\ORT\Semestre 2\Programacion 2\Obligatorio\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\matev\Desktop\ORT\Semestre 2\Programacion 2\Obligatorio\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+C:\Users\matev\Desktop\ORT\Semestre 2\Programacion 2\Obligatorio\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\matev\Desktop\ORT\Semestre 2\Programacion 2\Obligatorio\Codigo\Dominio\obj\Debug\net7.0\Dominio.dll
+C:\Users\matev\Desktop\ORT\Semestre 2\Programacion 2\Obligatorio\Codigo\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+C:\Users\matev\Desktop\ORT\Semestre 2\Programacion 2\Obligatorio\Codigo\Dominio\obj\Debug\net7.0\Dominio.pdb
+C:\Users\matev\Desktop\ORT\Semestre 2\Programacion 2\Obligatorio\Codigo\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+C:\Users\matev\Desktop\obligatorioXX\Codigo\Dominio\bin\Debug\net7.0\Dominio.deps.json
+C:\Users\matev\Desktop\obligatorioXX\Codigo\Dominio\bin\Debug\net7.0\Dominio.dll
+C:\Users\matev\Desktop\obligatorioXX\Codigo\Dominio\bin\Debug\net7.0\Dominio.pdb
+C:\Users\matev\Desktop\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\matev\Desktop\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matev\Desktop\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\matev\Desktop\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+C:\Users\matev\Desktop\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\matev\Desktop\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.dll
+C:\Users\matev\Desktop\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+C:\Users\matev\Desktop\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.pdb
+C:\Users\matev\Desktop\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+C:\obligatorioXX\Codigo\Dominio\bin\Debug\net7.0\Dominio.deps.json
+C:\obligatorioXX\Codigo\Dominio\bin\Debug\net7.0\Dominio.dll
+C:\obligatorioXX\Codigo\Dominio\bin\Debug\net7.0\Dominio.pdb
+C:\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+C:\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+C:\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+C:\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+C:\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.dll
+C:\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+C:\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.pdb
+C:\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorioXX\Codigo\Dominio\bin\Debug\net7.0\Dominio.deps.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorioXX\Codigo\Dominio\bin\Debug\net7.0\Dominio.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorioXX\Codigo\Dominio\bin\Debug\net7.0\Dominio.pdb
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\Dominio.pdb
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorioXX\Codigo\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\Dominio\bin\Debug\net7.0\Dominio.deps.json
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\Dominio\bin\Debug\net7.0\Dominio.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\Dominio\bin\Debug\net7.0\Dominio.pdb
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.pdb
+C:\ORT\Semestre 2\Programacion 2\Obligatorio\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\Dominio\bin\Debug\net7.0\Dominio.deps.json
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\Dominio\bin\Debug\net7.0\Dominio.dll
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\Dominio\bin\Debug\net7.0\Dominio.pdb
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.dll
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.pdb
+C:\Users\Ezequiel\Desktop\Entrega\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\Dominio\bin\Debug\net7.0\Dominio.deps.json
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\Dominio\bin\Debug\net7.0\Dominio.dll
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\Dominio\bin\Debug\net7.0\Dominio.pdb
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.dll
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\Dominio.pdb
+C:\Users\Ezequiel\Desktop\obligatorio2\Codigo\Dominio\obj\Debug\net7.0\ref\Dominio.dll
