@@ -22,7 +22,7 @@ body {
     background-color: rgb(220, 224, 221);
 }
 
-/*====================Menú login====================*/
+/*====================MenÃº login====================*/
 @media (min-width: 576px) {
     .dropdown-menu {
         left: 0;
@@ -211,7 +211,7 @@ footer div img{
     border-radius: 10px;
     box-shadow: 0px 0px 24px 1px rgba(0,0,0,0.52);
     color: white;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 
 #divFormRegistro {
@@ -248,12 +248,14 @@ select option{
     background-color: rgba(255,255,255, 0.5);    
 }
 
-/*====================FUNCIONALIDAD-VerDatosUsuario====================*/
 
-
-/*====================FUNCIONALIDAD-AgendasSegunDocumento====================*/
+/*====================FUNCIONALIDAD-AgendasConFiltro====================*/
 .inputAgendasDocumento {
     width: 175px;
+}
+
+.inputDateAgenda{
+    min-width: 150px;
 }
 
 /*====================ALERTAS====================*/
