@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -45,13 +45,13 @@
                                 <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                                     
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" asp-area="" asp-controller="Agenda" asp-action="MostrarAgendaSegunDocumento">Filtrar por documento</a>
+                                        <a class="nav-link text-dark ms-2" asp-area="" asp-controller="Agenda" asp-action="MostrarAgendaSegunDocumento">Filtrar por documento</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" asp-area="" asp-controller="Agenda" asp-action="MostrarAgendaSegunFecha">Filtrar por fecha</a>
+                                        <a class="nav-link text-dark ms-2" asp-area="" asp-controller="Agenda" asp-action="MostrarAgendaSegunFecha">Filtrar por fecha</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" asp-area="" asp-controller="Agenda" asp-action="MostrarAgendasPendientes">Confirmar</a>
+                                        <a class="nav-link text-dark ms-2" asp-area="" asp-controller="Agenda" asp-action="MostrarAgendasPendientes">Confirmar</a>
                                     </li>
                                 </ul>
                             </li>
@@ -66,20 +66,18 @@
                         }
                     </ul> 
                     
-                    @if (Context.Session.GetString("UsuarioLogueado") != null)
-                    {
-                        <div class="btn-group dropdown">
+                    <div class="btn-group dropdown my-3">
+                        @if (Context.Session.GetString("UsuarioLogueado") != null)
+                        {
                             <button type="button" class="btn btn-secondary dropdown-toggle me-4" data-bs-toggle="dropdown" aria-expanded="false">
                                 @Context.Session.GetString("UsuarioLogueado")
                             </button>
                             <ul class="dropdown-menu">
                                 <a class="dropdown-item" asp-area="" asp-controller="Login" asp-action="Desloguear">Cerrar Sesion</a>
                             </ul>
-                        </div>
-                    }
-                    else
-                    {
-                        <div class="btn-group dropdown">
+                        }
+                        else
+                        {
                             <button type="button" class="btn btn-primary dropdown-toggle me-4" id="fondoUsuarioBreeze" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img id="imagenPacificUsuario" src="https://i.ibb.co/fD6tf0R/001-user.png" />
                                 Acceder
@@ -88,9 +86,8 @@
                                 <a class="dropdown-item" asp-area="" asp-controller="Login" asp-action="Index">Iniciar Sesion</a>
                                 <a class="dropdown-item" asp-area="" asp-controller="Registro" asp-action="Index">Registrarse</a>
                             </ul>
-                        </div>
-                    }
-
+                        }
+                    </div>
                 </div>
 
                 
