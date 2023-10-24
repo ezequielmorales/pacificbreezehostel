@@ -1,11 +1,11 @@
-﻿@*
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
     @using Dominio
     @model List<Agenda>
 
-    <h1 class="mt-4 mb-3">Agendas huesped</h1>    
+    <h1 class="mt-4 mb-3">Agendas huésped</h1>    
 
     @if((string)TempData["tipo"]! == "DOCUMENTO")
     {
@@ -25,9 +25,7 @@
                 <input type="text" class="form-control inputAgendasDocumento fondoInput" id="NumeroDocumento" name="numeroDocumento" required>
             </div>
 
-            <div class="d-inline-block">
-                <input type="submit" class="btn btn-primary mb-1" value="Buscar">        
-            </div>        
+            <input type="submit" class="btn btn-primary mb-1" value="Buscar">               
         </form>        
     }
     else
@@ -35,13 +33,11 @@
         <form action="/Agenda/MostrarAgendaSegunFecha" method="get" class="mb-3">
 
             <div class="d-inline-block me-2 mb-2">
-                <label class="form-label d-block" for="fecha">Fecha:</label>
-                <input type="date" class="form-control fondoInput" id="fecha" name="fecha" required>
+                <label class="form-label" for="fecha">Fecha:</label>
+                <input type="date" class="form-control fondoInput inputDateAgenda" id="fecha" name="fecha" required>
             </div>
 
-            <div class="d-inline-block">
-                <input type="submit" class="btn btn-primary mb-1" value="Buscar">
-            </div>
+            <input type="submit" class="btn btn-primary mb-1 d-block" value="Buscar">
         </form>        
     }
 
@@ -64,32 +60,33 @@
 
                     @foreach (Agenda a in Model)
                     {
-                            <tr>
-                                <td scope="row">@a.Huesped.Nombre @a.Huesped.Apellido</td>
-                                <td>@a.Actividad.Nombre</td>
-                                <td>@a.Actividad.Fecha</td>
+                        <tr>
+                            <td scope="row">@a.Huesped.Nombre @a.Huesped.Apellido</td>
+                            <td>@a.Actividad.Nombre</td>
+                            <td>@a.Actividad.Fecha</td>
 
-                                @if(a.Actividad.ObtenerTipo() == "HOSTAL"){
-                                    <td>@a.Actividad.ToString()</td>
-                                }else{
-                                    <td>No aplica</td>
-                                }
+                            @if(a.Actividad.ObtenerTipo() == "HOSTAL"){
+                                <td>@a.Actividad.ToString()</td>
+                            }else{
+                                <td>No aplica</td>
+                            }
 
-                                @if(a.CostoFinal > 0){
-                                    <td>@a.CostoFinal USD</td>
-                                }else{
-                                    <td>Actividad gratuita</td>
-                                }
+                            @if(a.CostoFinal > 0){
+                                <td>@a.CostoFinal USD</td>
+                            }else{
+                                <td>Actividad gratuita</td>
+                            }
 
-                                <td>@a.Estado</td>
+                            <td>@a.Estado</td>
 
-                                @if(a.Actividad.ObtenerTipo() == "TERCIARIZADA"){
-                                    <td>@a.Actividad.ToString()</td>
-                                }else{
-                                    <td>No aplica</td>
-                                }
-                            </tr>                    
+                            @if(a.Actividad.ObtenerTipo() == "TERCIARIZADA"){
+                                <td>@a.Actividad.ToString()</td>
+                            }else{
+                                <td>No aplica</td>
+                            }
+                        </tr>                    
                     }
+
                 </tbody>
             </table>
         </div>
