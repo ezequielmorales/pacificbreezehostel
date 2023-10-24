@@ -1,4 +1,4 @@
-﻿@*
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
@@ -8,11 +8,11 @@
     <h1 class="mt-4 mb-3">Actividades</h1>
 
     <form action="/Actividad/Listar" method="get">
-        <div class="mb-3">
+        <div class="d-block mb-2">
             <label class="form-label d-block" for="fechaActividad">Fecha:</label>
-            <input type="date" class="form-control mb-2" id="fechaActividad" name="Fecha">
-            <input type="submit" class="btn btn-primary mb-1" value="Buscar">
+            <input type="date" class="form-control" id="fechaActividad" name="Fecha">
         </div>
+        <input type="submit" class="btn btn-primary mb-3" value="Buscar">
     </form>
 
     @if (ViewBag.MensajeError == null)
